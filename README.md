@@ -19,6 +19,18 @@ Module 5 / Day 5	6 hrs	MongoDB + Mongoose + MERN Integration + Deployment	Introd
 		Authentication + Security + Deployment	JWT authentication, securing routes, debugging Express, Socket.io intro, MERN application build, deployment overview (Render / Vercel / Netlify / Heroku concept)	Final MERN CRUD application
 		Capstone Review & Final Milestone	End-to-end integration, frontend-backend-database flow, project validation	Final capstone submission
 
+**Beginner Projects
+**	Todo App (React + Local State)
+	Counter App with Hooks
+	Static Product Listing
+**I***Intermediate Projects
+**	Student Management System (CRUD)
+	Blog App (Auth + Posts)
+	REST API with Express + MongoDB
+**Advanced Projects
+**	E-commerce App (Cart + Payment flow)
+	Social Media App (Login + Feed + Likes)
+	Admin Dashboard (Analytics + Charts)
 
 
 # Getting Started with Create React App
