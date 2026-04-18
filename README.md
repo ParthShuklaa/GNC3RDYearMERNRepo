@@ -1,105 +1,113 @@
-
-Module / Day	Hours	Topic	Subtopics Covered	Hands-on / Output
-Module 1 / Day 1	6 hrs	Introduction to MERN & React JS Foundations	Introduction to Full Stack Development, MERN Stack Overview, What is React JS, What is SPA, DOM vs Virtual DOM, Advantages & Limitations of React, Key Features of React	Environment setup and first React app
-		Environment Setup	Node.js, NPM, VS Code setup, React project creation, project structure, understanding how React app boots	Setup local development environment
-		React Basics	JSX and TSX overview, render elements, functional and class components, props, state, handling events, dynamic rendering	Build reusable components
-Module 2 / Day 2	6 hrs	Advanced React Development	Conditional rendering, lists and keys, forms handling, forms validation, component lifecycle concepts, lifecycle hooks, React event system, passing arguments to handlers	Build dynamic form-based UI
-		React Router + Data Handling	Routing setup, Route component, dynamic routes with params, nested routes, Link, NavLink, redirects	Multi-page React application
-		API Integration + Storage	Fetch API, Axios, custom services, local storage, session storage, cookies	Connect frontend to mock/local APIs
-Module 3 / Day 3	6 hrs	React Advanced Features + State Management	Introduction to Redux, why Redux, setup, store, reducers, actions, dispatcher, higher-order components, mapStateToProps, mapDispatchToProps	State-managed UI app
-		Advanced Redux + Hooks	Async actions, middleware, Redux Thunk, Redux Saga (overview), why hooks, useState, useEffect, useReducer, useRef, custom hooks, rules of hooks	React hooks implementation
-		Third Party Modules + Testing	Pagination, search, filter, social login overview, JWT integration concept, file upload concept, Jest + Enzyme basics	Add search/filter and test sample components
-Module 4 / Day 4	6 hrs	Node.js & Express.js Backend Development	What is Node.js, event loop, event-driven architecture, blocking vs non-blocking code, Node process model, REPL, debugging	Build first Node app
-		Node Core Modules	Modules, exports/require, NPM packages, events, EventEmitter, streams, pipe, process object, file system module, file/folder operations	File handling + event-driven mini tasks
-		Express.js Basics	Building web server, HTTP methods, headers, status codes, serving static files, Express app generator	Create backend server
-		Express Routing & Middleware	Routing methods, parameterized routes, route handlers, Express routers, application middleware, router middleware, built-in and third-party middleware, body-parser, cors, cookie-parser, session management	REST API development
-Module 5 / Day 5	6 hrs	MongoDB + Mongoose + MERN Integration + Deployment	Introduction to MongoDB, SQL vs NoSQL, document-oriented DB, collections, documents, MongoDB use cases	MongoDB CRUD implementation
-		CRUD in MongoDB	insert, save, find, equality queries, operators, complex queries, update, delete, limit, sort/order by	CRUD database operations
-		Mongoose Integration	What is ODM, installing Mongoose, connecting to MongoDB, schema design, datatypes, models, modifiers, validations	Backend DB integration
-		Authentication + Security + Deployment	JWT authentication, securing routes, debugging Express, Socket.io intro, MERN application build, deployment overview (Render / Vercel / Netlify / Heroku concept)	Final MERN CRUD application
-		Capstone Review & Final Milestone	End-to-end integration, frontend-backend-database flow, project validation	Final capstone submission
-
-**Beginner Projects
-**	Todo App (React + Local State)
-	Counter App with Hooks
-	Static Product Listing
-**I***Intermediate Projects
-**	Student Management System (CRUD)
-	Blog App (Auth + Posts)
-	REST API with Express + MongoDB
-**Advanced Projects
-**	E-commerce App (Cart + Payment flow)
-	Social Media App (Login + Feed + Likes)
-	Admin Dashboard (Analytics + Charts)
+MERN Stack Training Plan (5 Days – 30 Hours)
+Module-wise Breakdown
+Module 1 / Day 1 (6 Hours)
+Topic: Introduction to MERN & React JS Foundations
+Section
+Details
+Subtopics Covered
+Introduction to Full Stack Development, MERN Stack Overview, What is React JS, SPA concept, DOM vs Virtual DOM, Advantages and Limitations of React, Key Features
+Environment Setup
+Node.js, NPM, VS Code setup, React project creation, project structure, React app bootstrapping
+React Basics
+JSX and TSX, rendering elements, functional and class components, props, state, event handling, dynamic rendering
+Hands-on / Output
+Environment setup, First React app, Build reusable components
 
 
-# Getting Started with Create React App
+Module 2 / Day 2 (6 Hours)
+Topic: Advanced React Development
+Section
+Details
+Subtopics Covered
+Conditional rendering, lists and keys, forms handling, validation, lifecycle concepts, event system
+React Router + Data Handling
+Routing setup, Route, dynamic routes, nested routes, Link, NavLink, redirects
+API Integration + Storage
+Fetch API, Axios, services, local storage, session storage, cookies
+Hands-on / Output
+Dynamic form-based UI, Multi-page React application, API integration
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Module 3 / Day 3 (6 Hours)
+Topic: React Advanced Features and State Management
+Section
+Details
+Redux Fundamentals
+Store, reducers, actions, dispatcher, higher-order components
+Advanced Redux + Hooks
+Async actions, middleware, Redux Thunk, Redux Saga (overview), useState, useEffect, useReducer, useRef, custom hooks
+Third-party Modules + Testing
+Pagination, search, filter, JWT concept, file upload, Jest and Enzyme basics
+Hands-on / Output
+State-managed application, Hooks implementation, Search/filter with testing
 
-In the project directory, you can run:
 
-### `npm start`
+Module 4 / Day 4 (6 Hours)
+Topic: Node.js and Express.js Backend Development
+Section
+Details
+Node.js Basics
+Event loop, event-driven architecture, blocking vs non-blocking, process model, REPL
+Node Core Modules
+Modules, require/export, NPM packages, events, EventEmitter, streams, file system, process
+Express Basics
+Server setup, HTTP methods, headers, status codes, static files
+Routing and Middleware
+Routing, parameterized routes, middleware types, body-parser, CORS, session handling
+Hands-on / Output
+Node application, File handling tasks, REST API development
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Module 5 / Day 5 (6 Hours)
+Topic: MongoDB, Mongoose, MERN Integration and Deployment
+Section
+Details
+MongoDB Basics
+NoSQL concepts, collections, documents, use cases
+CRUD Operations
+Insert, find, update, delete, sorting, filtering
+Mongoose Integration
+ODM concept, schema, models, validations, database connection
+Authentication and Deployment
+JWT authentication, secure routes, deployment concepts
+Capstone
+End-to-end MERN integration, frontend-backend-database flow
+Hands-on / Output
+CRUD application, Database integration, Final MERN project
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Project-Based Learning
+Beginner Projects
+Project
+Description
+Todo App
+React application using local state
+Counter App
+Hooks-based counter implementation
+Static Product Listing
+Display static product data
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Intermediate Projects
+Project
+Description
+Student Management System
+CRUD operations with backend integration
+Blog App
+Authentication with post creation
+REST API
+Backend API using Express and MongoDB
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Advanced Projects
+Project
+Description
+E-commerce Application
+Cart and payment flow
+Social Media Application
+Login, feed, likes functionality
+Admin Dashboard
+Analytics and charts
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
